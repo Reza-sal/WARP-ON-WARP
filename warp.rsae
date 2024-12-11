@@ -1,0 +1,45 @@
+//profile-title: base64:wq7vuI/wn5G5cnNhZeKAmA==
+//profile-update-interval: 36
+//subscription-userinfo: upload=0; download=0; total=1079871236540000000; expire=8765432165
+//support-url: https://t.me/rsae63
+
+
+
+
+{
+  "outbounds":   [
+    {
+      "type": "wireguard",
+      "tag": "®️👹IR § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8f3a:ea39:ed71:ca5e:9ea4/128"
+      ],
+      "private_key": "6GfrYbYs9UZ5HKsLGoc5LH1TmFByE/UnabqLuknljmU=",
+      "server": "162.159.195.19",
+      "server_port": 987,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "AlVc",
+      "mtu": 1330,
+      "fake_packets": "40-80",
+      "fake_packets_size": "20-30",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "®️👹🇩🇪 § 1",
+      "detour": "®️👹IR § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8061:8e85:f4d5:8aa7:689d/128"
+      ],
+      "private_key": "ELUO4KtjhCeH/evb3ji59Ex8mZ5cfOSbY+nelIO9j0Q=",
+      "server": "188.114.98.236",
+      "server_port": 1387,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "JSrY",
+      "mtu": 1260
+    }
+  ]
+}
